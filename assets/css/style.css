@@ -48,13 +48,14 @@ hr {
 }
 
 /* footer */
-
-.footer {
+footer{
     background-color: turquoise;
-    padding: 7px;
 }
-
-.imagen_footer {
-   width: 40px;
-   text-align:right;
+.footer_titulo{
+    text-decoration: none;
+    color: white;
+}
+.footer_imagenes{
+    text-decoration: none;
+    color:white;
 }
