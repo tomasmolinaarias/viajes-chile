@@ -1,0 +1,60 @@
+body {
+    font-size: 16px;
+    font-family: 'Heebo', sans-serif;
+    background-color: black;
+    color: white;
+}
+/* navar */
+
+.imagen_menu {
+    width: 25px;
+}
+
+.menu {
+    text-decoration: none; 
+    color: white;
+}
+.menucito {
+    text-decoration: none;
+    color : white;
+}
+/* hr */
+hr {
+    color: turquoise;
+}
+
+
+/*carousel*/
+
+.carousel{
+    width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+/* quienes somos */
+
+.avion, .montaña, .ruta {
+    background-color: turquoise;
+    width: 100%;
+    padding: 3px;
+}
+
+/* destacado*/
+
+.tarjetas{
+    border: 1px solid white;
+}
+
+/* footer */
+
+.footer {
+    background-color: turquoise;
+    padding: 7px;
+}
+
+.imagen_footer {
+   width: 40px;
+   text-align:right;
+}
