@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="ven a ver los viajes en chile">
     <title>VIAJES CHILE</title>
-
     <link rel="shortcut icon" type="imagen/png" href="assets/img/viajes.svg">
 
     <!--FONT AWESOME-->
@@ -36,7 +35,7 @@
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <a class="menu navbar-brand" href="#"><img class="imagen_menu" src="./assets/img/viajes.svg" alt=""> Viajes
-                Chile.</a>
+                Chile</a>
             </button>
             <div class=" submenu collapse navbar-collapse pe-5 me-5 text-ligth" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
@@ -79,17 +78,17 @@
 
     <!-- TITULO -->
 
-    <section id="quienes_somos">
+    <section id="quienes_somos" class="d-none d-md-block">
         <div class="container col col-md-12 ">
             <div>
                 <h1 class="mt-5 text-center">¿Quienes somos?</h1>
                 <hr>
             </div>
-
             <div class="row">
-                <div class="col">
+                <div class="quienes_somos col-4">
                     <i class="avion fas fa-plane fa-2x text-center" id="avion" data-bs-toggle="tooltip"
-                        data-bs-placement="top" title="cambia de color con un click "></i>
+                        data-bs-placement="top"
+                        title="cambia de color con un click en la imagen y con doble click lo desaparece"></i>
                     <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio temporibus
                         perferendis,
                         dignissimos error accusamus repellendus illum architecto quasi iure animi aliquam doloribus sed
@@ -97,19 +96,20 @@
                         corrupti voluptas facilis distinctio, commodi, voluptatem veniam iure rem doloremque porro
                         debitis ducimus saepe.</p>
                 </div>
-                <div class="col">
+                <div class="quienes_somos col-4">
                     <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem adipisci alias,
-                        ullam
                         tempora neque quo suscipit architecto repudiandae harum quisquam laborum nam itaque dolorum
                         maiores voluptas esse, odio deleniti sint eligendi qui dolore aspernatur aliquam. At, esse?
                         Dolore explicabo eos ea maiores sapiente, blanditiis doloribus incidunt molestias accusantium
                         numquam dicta?</p>
                     <i class="montaña fas fa-mountain fa-2x text-center" id="montaña" data-bs-toggle="tooltip"
-                        data-bs-placement="bottom" title="cambia de color con un click"></i>
+                        data-bs-placement="bottom"
+                        title="cambia de color con un click  y  con doble click lo desaparece"></i>
                 </div>
-                <div class="col">
+                <div class="quienes_somos col-4">
                     <i class="ruta fas fa-route fa-2x text-center" id="ruta" data-bs-toggle="tooltip"
-                        data-bs-placement="top" title="cambia de color con un click"></i>
+                        data-bs-placement="top"
+                        title="cambia de color con un click  y  con doble click lo desaparece"></i>
                     <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quisquam consequatur
                         molestiae eaque,
                         officiis maxime totam corrupti sint voluptate blanditiis eum saepe exercitationem voluptates
@@ -123,61 +123,56 @@
 
     <!-- TARJETAS -->
 
-    <section id="destacado" class="d-none d-md-block">
-        <div class="container col">
+    <section id="destacado">
+        <div class="container col justify-content-md-center">
+            <h2 class="h1 text-center">Destacado</h2>
+            <hr>
+
             <div>
-                <h1 class="text-center h1 pt-5">Destacado</h1>
-                <hr>
-            </div>
-            <div class="row  ">
-                <div class="col">
-                    <div class="tarjetas card bg-info h-100">
-                        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Lorem, ipsum dolor.</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, omnis
-                                commodi? Dolor dignissimos dicta, illum hic dolores reprehenderit quibusdam. Dolorem
-                                esse fuga cumque, quis tempore dignissimos voluptatum.</p>
+                <div class="row">
+                    <div class="col">
+                        <div class="tarjetas card">
+                            <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="tarjetas card bg-info h-100">
-                        <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title ">Lorem, ipsum dolor.</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In soluta
-                                voluptas voluptates, earum excepturi ducimus. Dolorum asperiores dolores adipisci quas
-                                laborum doloremque eius commodi et odit nisi id assumenda amet, possimus veritatis?
-                                Consectetur veniam molestias dicta nihil labore, deserunt reprehenderit.</p>
+                    <div class="col">
+                        <div class="tarjetas card">
+                            <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate amet assumenda, natus ratione velit deleniti saepe consectetur porro odio totam, sint labore tenetur unde inventore suscipit. autem.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="tarjetas card bg-info h-100">
-                        <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-                                tempora dolore saepe nemo natus sapiente quo voluptates soluta provident optio unde,
-                                aspernatur deserunt libero odio architecto cupiditate repellat fuga rem autem totam
-                                delectus perspiciatis praesentium! Debitis consectetur aperiam esse vitae!</p>
+                    <div class="col">
+                        <div class="tarjetas card">
+                            <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+                                    quae eveniet voluptatibus vero aspernatur culpa, error alias quia neque esse dolorem
+                                    repellendus quos molestiae exercitationem vel laborum nam? Aliquam, obcaecati?</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="tarjetas card bg-info h-100">
-                        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Lorem, ipsum dolor.</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quia
-                                deserunt quaerat ullam quis quasi nisi laborum deleniti quidem saepe? Possimus omnis
-                                quae consequatur tempore magnam similique quaerat beatae excepturi dolore a, quam
-                                doloremque consectetur? Soluta doloremque explicabo quisquam animi.</p>
+                    <div class="col">
+                        <div class="tarjetas card">
+                            <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
 

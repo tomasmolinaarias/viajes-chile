@@ -1,7 +1,7 @@
 /*desaparecer carta*/
 
 $(document).ready(function(){
-    $(".tarjetas").click(function(){
+    $(".quienes_somos").dblclick(function(){
       $(this).toggle("hide");
     });
     $("#avion").click(function(){
