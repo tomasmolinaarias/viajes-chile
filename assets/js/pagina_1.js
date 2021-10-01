@@ -9,10 +9,10 @@ $(document).ready(function(){
         
       });
       $("#montaña").click(function(){
-        $(this).css("background-color","red");
+        $(this).css("background-color","purple");
       });
       $("#ruta").click(function(){
-        $(this).css("background-color","red");
+        $(this).css("background-color","pink");
       });
 });
 
