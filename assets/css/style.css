@@ -1,8 +1,9 @@
 body {
     font-size: 16px;
-    font-family: 'Heebo', sans-serif;
     background-color:black;
     color: white;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
 }
 /* navar */
 
@@ -13,10 +14,12 @@ body {
 .menu {
     text-decoration: none; 
     color: white;
+    font-family: 'Roboto Mono', monospace;
 }
 .menucito {
     text-decoration: none;
     color : white;
+    font-family: 'Roboto Mono', monospace;
 }
 
 /* hr */
