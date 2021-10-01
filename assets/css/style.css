@@ -44,12 +44,10 @@ hr {
 
 /* destacado*/
 
-.tarjetas{
+.tarjeta1, .tarjeta2, .tarjeta3, .tarjeta4{
     border: 1px solid white;
     background-color: turquoise;
 }
-
-
 /* footer */
 footer{
     background-color: turquoise;
