@@ -51,6 +51,7 @@ $(document).ready(function(){
       $(".tarjeta4").dblclick(function(){
           $(this).css("background-color","turquoise");
       });
+      
         //modal
         var myModal = document.getElementById('myModal')
         var myInput = document.getElementById('myInput')        
@@ -64,10 +65,3 @@ $(document).ready(function(){
       return new bootstrap.Tooltip(tooltipTriggerEl)
       })
 });
-
-  /*tooltip */
-
-//var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-//var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-//  return new bootstrap.Tooltip(tooltipTriggerEl)
-//})
