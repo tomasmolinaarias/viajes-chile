@@ -58,6 +58,7 @@ footer{
 .footer_titulo{
     color: white;
     text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
 }
 .footer_imagenes{
     text-decoration: none;
