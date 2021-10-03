@@ -53,7 +53,11 @@ $(document).ready(function(){
       });
       //alert footer cuando haces click en el viajes chile
       $(".footer_titulo").click(function(){
-        alert ("se cambiara la pagina a la misma pagine pero en githubpage")
+        alert ("se cambiara a la misma pagina pero en githubpage")
+      });
+      //alert navs cuando haga click en viajes chile
+      $(".menu_titulo").click(function(){
+        alert ("se cambiara a la misma pagina pero en netlify")
       });
       
         //modal
