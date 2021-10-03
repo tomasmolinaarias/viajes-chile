@@ -6,6 +6,9 @@ $(document).ready(function(){
       $(this).toggle("hide");
     });
 //cambio decolor  quienes somos    
+    $(".qs_titulo").click(function(){
+      $(this).css("color","blue");    
+    });
     $("#avion").click(function(){
       $(this).css("background-color","red");    
     });
