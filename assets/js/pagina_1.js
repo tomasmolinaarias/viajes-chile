@@ -51,6 +51,10 @@ $(document).ready(function(){
       $(".tarjeta4").dblclick(function(){
           $(this).css("background-color","turquoise");
       });
+      //alert footer cuando haces click en el viajes chile
+      $(".footer_titulo").click(function(){
+        alert ("se cambiara la pagina a la misma pagine pero en githubpage")
+      });
       
         //modal
         var myModal = document.getElementById('myModal')
